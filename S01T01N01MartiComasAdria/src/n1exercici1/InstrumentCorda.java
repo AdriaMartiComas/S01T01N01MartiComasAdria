@@ -17,5 +17,6 @@ public class InstrumentCorda extends Instrument {
 		System.out.println(
 				"Soc un block estatic de la classe InstrumentCorda");
 	}
+	
 
 }

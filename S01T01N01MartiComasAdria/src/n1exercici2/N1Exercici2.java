@@ -8,6 +8,7 @@ public class N1Exercici2 {
 		
 		Cotxe.frenar();
 		cotxe1.accelerar();
+		
 	}
 
 }
