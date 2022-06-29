@@ -3,10 +3,16 @@ package n1exercici1;
 public class N1Exercici1 {
 
 	public static void main(String[] args) {
+		
+		//Carrega de la classe Instrument i InstrumentCorda al instanciar un objecte
 		InstrumentCorda guitarra = new InstrumentCorda("Guitarra Acústica", 700);
+		
 		InstrumentCorda violi = new InstrumentCorda("violi", 1000);
-		InstrumentVent trompeta = new InstrumentVent("Trompeta", 500);
-		InstrumentPercussio caixa = new InstrumentPercussio("Caixa", 350);
+	
+		
+		//Carrega de la classe InstrumentPercusio al accedir a un mebre satatic
+		InstrumentPercussio.setNumBaquetes(2);
+
 
 		guitarra.setPreu(800);
 
@@ -16,11 +22,9 @@ public class N1Exercici1 {
 		System.out.println("\n" + violi);
 		violi.tocar();
 
-		System.out.println("\n" + trompeta);
-		trompeta.tocar();
+		
 
-		System.out.println("\n" + caixa);
-		caixa.tocar();
+
 
 	}
 

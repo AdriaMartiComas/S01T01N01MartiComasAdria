@@ -15,7 +15,7 @@ public class InstrumentCorda extends Instrument {
 	{
 
 		System.out.println(
-				"Soc un block estatic i sempre sere el primer en apareixer a la consola quan s'instanci un objecte de la meva classe");
+				"Soc un block estatic de la classe InstrumentCorda");
 	}
 
 }
