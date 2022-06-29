@@ -4,6 +4,7 @@ public class N1Exercici1 {
 
 	public static void main(String[] args) {
 		InstrumentCorda guitarra = new InstrumentCorda("Guitarra Acústica", 700);
+		InstrumentCorda violi = new InstrumentCorda("violi", 1000);
 		InstrumentVent trompeta = new InstrumentVent("Trompeta", 500);
 		InstrumentPercussio caixa = new InstrumentPercussio("Caixa", 350);
 
@@ -11,6 +12,9 @@ public class N1Exercici1 {
 
 		System.out.println("\n" + guitarra);
 		guitarra.tocar();
+		
+		System.out.println("\n" + violi);
+		violi.tocar();
 
 		System.out.println("\n" + trompeta);
 		trompeta.tocar();

@@ -28,5 +28,6 @@ public abstract class Instrument {
 		return "Instrument [nom=" + nom + ", preu=" + preu + "]";
 	}
 
-}
+	
 
+}
